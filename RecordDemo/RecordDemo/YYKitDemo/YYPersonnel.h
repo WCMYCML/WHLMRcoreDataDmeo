@@ -10,4 +10,9 @@
 
 @interface YYPersonnel : NSObject
 
+@property (nonatomic, copy) NSString * address;
+@property (nonatomic, copy) NSString * age;
+@property (nonatomic, copy) NSString * name;
+@property (nonatomic, copy) NSString * sex;
+
 @end

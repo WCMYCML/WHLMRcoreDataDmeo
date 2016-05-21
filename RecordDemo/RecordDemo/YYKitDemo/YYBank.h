@@ -10,4 +10,7 @@
 
 @interface YYBank : NSObject
 
+@property (nonatomic, copy) NSString * address;
+@property (nonatomic, copy) NSString * name;
+
 @end

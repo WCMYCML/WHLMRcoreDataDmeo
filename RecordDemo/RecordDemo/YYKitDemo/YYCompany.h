@@ -10,4 +10,8 @@
 
 @interface YYCompany : NSObject
 
+@property (nonatomic, copy) NSString * identifier;
+@property (nonatomic, copy) NSString * name;
+
+
 @end

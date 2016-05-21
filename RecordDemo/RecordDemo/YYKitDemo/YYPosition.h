@@ -10,4 +10,6 @@
 
 @interface YYPosition : NSObject
 
+@property (nonatomic, copy) NSString * name;
+
 @end

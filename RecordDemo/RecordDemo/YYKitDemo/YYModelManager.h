@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ 数据管理类
+ */
 @interface YYModelManager : NSObject
 
 @end

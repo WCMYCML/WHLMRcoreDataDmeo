@@ -10,4 +10,6 @@
 
 @interface YYDepartment : NSObject
 
+@property (nonatomic, copy) NSString * name;
+
 @end
