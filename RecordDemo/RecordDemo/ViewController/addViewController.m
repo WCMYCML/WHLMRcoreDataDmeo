@@ -26,8 +26,27 @@
     [super viewDidLoad];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (IBAction)setUpCompany:(UIButton *)sender {
+}
+
+- (IBAction)addDepartment:(UIButton *)sender {
+}
+
+- (IBAction)addPosition:(UIButton *)sender {
+}
+
+- (IBAction)addPerson:(UIButton *)sender {
+}
+
+- (IBAction)addCar:(UIButton *)sender {
+}
+
+- (IBAction)addBank:(UIButton *)sender {
 }
 
 
