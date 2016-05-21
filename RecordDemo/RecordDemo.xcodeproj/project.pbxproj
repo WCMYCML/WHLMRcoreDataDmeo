@@ -24,6 +24,14 @@
 		2311F97B1CEEDD750035044A /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F96D1CEEDD750035044A /* Company.m */; };
 		2311F9841CEF253E0035044A /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9821CEF253E0035044A /* addViewController.m */; };
 		2311F9851CEF253E0035044A /* addViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311F9831CEF253E0035044A /* addViewController.xib */; };
+		233B00731CF09386002335C6 /* YYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00721CF09386002335C6 /* YYCar.m */; };
+		233B00761CF09428002335C6 /* YYCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00751CF09428002335C6 /* YYCompany.m */; };
+		233B00791CF09456002335C6 /* YYBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00781CF09456002335C6 /* YYBank.m */; };
+		233B007C1CF0948F002335C6 /* YYDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B007B1CF0948F002335C6 /* YYDepartment.m */; };
+		233B007F1CF094B7002335C6 /* YYPersonnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B007E1CF094B7002335C6 /* YYPersonnel.m */; };
+		233B00821CF094E4002335C6 /* YYPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00811CF094E4002335C6 /* YYPosition.m */; };
+		233B00851CF09503002335C6 /* YYSalary.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00841CF09503002335C6 /* YYSalary.m */; };
+		233B00881CF095B1002335C6 /* YYModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00871CF095B1002335C6 /* YYModelManager.m */; };
 		23E5EFE91CEC4AE000882513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFE81CEC4AE000882513 /* main.m */; };
 		23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEB1CEC4AE000882513 /* AppDelegate.m */; };
 		23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEE1CEC4AE000882513 /* ViewController.m */; };
@@ -77,6 +85,22 @@
 		2311F9821CEF253E0035044A /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
 		2311F9831CEF253E0035044A /* addViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addViewController.xib; sourceTree = "<group>"; };
 		2311F9861CEF27770035044A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		233B00711CF09386002335C6 /* YYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCar.h; sourceTree = "<group>"; };
+		233B00721CF09386002335C6 /* YYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCar.m; sourceTree = "<group>"; };
+		233B00741CF09428002335C6 /* YYCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCompany.h; sourceTree = "<group>"; };
+		233B00751CF09428002335C6 /* YYCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCompany.m; sourceTree = "<group>"; };
+		233B00771CF09456002335C6 /* YYBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBank.h; sourceTree = "<group>"; };
+		233B00781CF09456002335C6 /* YYBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBank.m; sourceTree = "<group>"; };
+		233B007A1CF0948F002335C6 /* YYDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDepartment.h; sourceTree = "<group>"; };
+		233B007B1CF0948F002335C6 /* YYDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDepartment.m; sourceTree = "<group>"; };
+		233B007D1CF094B7002335C6 /* YYPersonnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPersonnel.h; sourceTree = "<group>"; };
+		233B007E1CF094B7002335C6 /* YYPersonnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPersonnel.m; sourceTree = "<group>"; };
+		233B00801CF094E4002335C6 /* YYPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPosition.h; sourceTree = "<group>"; };
+		233B00811CF094E4002335C6 /* YYPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPosition.m; sourceTree = "<group>"; };
+		233B00831CF09503002335C6 /* YYSalary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSalary.h; sourceTree = "<group>"; };
+		233B00841CF09503002335C6 /* YYSalary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSalary.m; sourceTree = "<group>"; };
+		233B00861CF095B1002335C6 /* YYModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelManager.h; sourceTree = "<group>"; };
+		233B00871CF095B1002335C6 /* YYModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelManager.m; sourceTree = "<group>"; };
 		23E5EFE41CEC4ADF00882513 /* RecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5EFE81CEC4AE000882513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23E5EFEA1CEC4AE000882513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +184,29 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		233B00701CF09334002335C6 /* YYKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				233B00711CF09386002335C6 /* YYCar.h */,
+				233B00721CF09386002335C6 /* YYCar.m */,
+				233B00741CF09428002335C6 /* YYCompany.h */,
+				233B00751CF09428002335C6 /* YYCompany.m */,
+				233B00771CF09456002335C6 /* YYBank.h */,
+				233B00781CF09456002335C6 /* YYBank.m */,
+				233B007A1CF0948F002335C6 /* YYDepartment.h */,
+				233B007B1CF0948F002335C6 /* YYDepartment.m */,
+				233B007D1CF094B7002335C6 /* YYPersonnel.h */,
+				233B007E1CF094B7002335C6 /* YYPersonnel.m */,
+				233B00801CF094E4002335C6 /* YYPosition.h */,
+				233B00811CF094E4002335C6 /* YYPosition.m */,
+				233B00831CF09503002335C6 /* YYSalary.h */,
+				233B00841CF09503002335C6 /* YYSalary.m */,
+				233B00861CF095B1002335C6 /* YYModelManager.h */,
+				233B00871CF095B1002335C6 /* YYModelManager.m */,
+			);
+			path = YYKitDemo;
+			sourceTree = "<group>";
+		};
 		23E5EFDB1CEC4ADF00882513 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +231,7 @@
 		23E5EFE61CEC4AE000882513 /* RecordDemo */ = {
 			isa = PBXGroup;
 			children = (
+				233B00701CF09334002335C6 /* YYKitDemo */,
 				2311F9511CEEDD540035044A /* CoreDataModel */,
 				2311F9801CEF251B0035044A /* ViewController */,
 				23E5EFEA1CEC4AE000882513 /* AppDelegate.h */,
@@ -386,19 +434,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233B007F1CF094B7002335C6 /* YYPersonnel.m in Sources */,
 				23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */,
 				2311F9701CEEDD750035044A /* Personnel+CoreDataProperties.m in Sources */,
 				23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */,
 				23E5EFE91CEC4AE000882513 /* main.m in Sources */,
+				233B00881CF095B1002335C6 /* YYModelManager.m in Sources */,
+				233B00851CF09503002335C6 /* YYSalary.m in Sources */,
 				2311F9781CEEDD750035044A /* Bank+CoreDataProperties.m in Sources */,
 				2311F9731CEEDD750035044A /* Position.m in Sources */,
+				233B00731CF09386002335C6 /* YYCar.m in Sources */,
 				2311F9711CEEDD750035044A /* Personnel.m in Sources */,
+				233B00761CF09428002335C6 /* YYCompany.m in Sources */,
 				2311F97B1CEEDD750035044A /* Company.m in Sources */,
+				233B00821CF094E4002335C6 /* YYPosition.m in Sources */,
 				2311F9751CEEDD750035044A /* Car.m in Sources */,
 				23E5EFF51CEC4AE000882513 /* RecordDemo.xcdatamodeld in Sources */,
 				2311F96E1CEEDD750035044A /* Department+CoreDataProperties.m in Sources */,
+				233B00791CF09456002335C6 /* YYBank.m in Sources */,
 				2311F9841CEF253E0035044A /* addViewController.m in Sources */,
 				2311F97A1CEEDD750035044A /* Company+CoreDataProperties.m in Sources */,
+				233B007C1CF0948F002335C6 /* YYDepartment.m in Sources */,
 				2311F9771CEEDD750035044A /* Salary.m in Sources */,
 				2311F9741CEEDD750035044A /* Car+CoreDataProperties.m in Sources */,
 				2311F9761CEEDD750035044A /* Salary+CoreDataProperties.m in Sources */,
