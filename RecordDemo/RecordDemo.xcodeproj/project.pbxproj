@@ -32,6 +32,8 @@
 		233B00821CF094E4002335C6 /* YYPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00811CF094E4002335C6 /* YYPosition.m */; };
 		233B00851CF09503002335C6 /* YYSalary.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00841CF09503002335C6 /* YYSalary.m */; };
 		233B00881CF095B1002335C6 /* YYModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00871CF095B1002335C6 /* YYModelManager.m */; };
+		233B008C1CF0B165002335C6 /* YYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B008A1CF0B165002335C6 /* YYModelViewController.m */; };
+		233B008D1CF0B165002335C6 /* YYModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233B008B1CF0B165002335C6 /* YYModelViewController.xib */; };
 		23E5EFE91CEC4AE000882513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFE81CEC4AE000882513 /* main.m */; };
 		23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEB1CEC4AE000882513 /* AppDelegate.m */; };
 		23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEE1CEC4AE000882513 /* ViewController.m */; };
@@ -101,6 +103,9 @@
 		233B00841CF09503002335C6 /* YYSalary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSalary.m; sourceTree = "<group>"; };
 		233B00861CF095B1002335C6 /* YYModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelManager.h; sourceTree = "<group>"; };
 		233B00871CF095B1002335C6 /* YYModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelManager.m; sourceTree = "<group>"; };
+		233B00891CF0B165002335C6 /* YYModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelViewController.h; sourceTree = "<group>"; };
+		233B008A1CF0B165002335C6 /* YYModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelViewController.m; sourceTree = "<group>"; };
+		233B008B1CF0B165002335C6 /* YYModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYModelViewController.xib; sourceTree = "<group>"; };
 		23E5EFE41CEC4ADF00882513 /* RecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5EFE81CEC4AE000882513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23E5EFEA1CEC4AE000882513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +185,9 @@
 				2311F9811CEF253E0035044A /* addViewController.h */,
 				2311F9821CEF253E0035044A /* addViewController.m */,
 				2311F9831CEF253E0035044A /* addViewController.xib */,
+				233B00891CF0B165002335C6 /* YYModelViewController.h */,
+				233B008A1CF0B165002335C6 /* YYModelViewController.m */,
+				233B008B1CF0B165002335C6 /* YYModelViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -368,6 +376,7 @@
 				23E5EFFA1CEC4AE000882513 /* LaunchScreen.storyboard in Resources */,
 				23E5EFF71CEC4AE000882513 /* Assets.xcassets in Resources */,
 				2311F9851CEF253E0035044A /* addViewController.xib in Resources */,
+				233B008D1CF0B165002335C6 /* YYModelViewController.xib in Resources */,
 				23E5EFF21CEC4AE000882513 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +467,7 @@
 				2311F9771CEEDD750035044A /* Salary.m in Sources */,
 				2311F9741CEEDD750035044A /* Car+CoreDataProperties.m in Sources */,
 				2311F9761CEEDD750035044A /* Salary+CoreDataProperties.m in Sources */,
+				233B008C1CF0B165002335C6 /* YYModelViewController.m in Sources */,
 				2311F9791CEEDD750035044A /* Bank.m in Sources */,
 				2311F9721CEEDD750035044A /* Position+CoreDataProperties.m in Sources */,
 				2311F96F1CEEDD750035044A /* Department.m in Sources */,
