@@ -17,7 +17,7 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eev-uH-YAP">
                     <rect key="frame" x="45" y="107" width="70" height="34"/>
-                    <state key="normal" title="创建公司"/>
+                    <state key="normal" title="初始化公司"/>
                     <connections>
                         <action selector="setUpCompany:" destination="-1" eventType="touchUpInside" id="bfg-mN-G4E"/>
                     </connections>
