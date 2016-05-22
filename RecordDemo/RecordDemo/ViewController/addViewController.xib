@@ -14,6 +14,50 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eev-uH-YAP">
+                    <rect key="frame" x="45" y="107" width="70" height="34"/>
+                    <state key="normal" title="初始化公司"/>
+                    <connections>
+                        <action selector="setUpCompany:" destination="-1" eventType="touchUpInside" id="bfg-mN-G4E"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tE-ES-Fcj">
+                    <rect key="frame" x="45" y="158" width="70" height="38"/>
+                    <state key="normal" title="添加部门"/>
+                    <connections>
+                        <action selector="addDepartment:" destination="-1" eventType="touchUpInside" id="DXw-Gs-gdV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXf-if-pel">
+                    <rect key="frame" x="45" y="215" width="70" height="32"/>
+                    <state key="normal" title="添加职位"/>
+                    <connections>
+                        <action selector="addPosition:" destination="-1" eventType="touchUpInside" id="Ped-o3-ayE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHf-20-qOq">
+                    <rect key="frame" x="45" y="269" width="70" height="30"/>
+                    <state key="normal" title="添加员工"/>
+                    <connections>
+                        <action selector="addPerson:" destination="-1" eventType="touchUpInside" id="AoI-sN-yU5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X5-uE-8Y4">
+                    <rect key="frame" x="45" y="313" width="70" height="35"/>
+                    <state key="normal" title="添加轿车"/>
+                    <connections>
+                        <action selector="addCar:" destination="-1" eventType="touchUpInside" id="MAn-pq-O5k"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYC-bR-flj">
+                    <rect key="frame" x="45" y="356" width="70" height="32"/>
+                    <state key="normal" title="添加银行"/>
+                    <connections>
+                        <action selector="addBank:" destination="-1" eventType="touchUpInside" id="F4g-yE-swx"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="261" y="357"/>
         </view>
