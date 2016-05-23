@@ -13,4 +13,9 @@
 
 // Insert code here to add functionality to your managed object subclass
 
+
+- (NSString *)description{
+    return [NSString stringWithFormat:@"颜色：%@，价格：%@，车型号：%@",self.price,self.color,self.name];
+}
+
 @end
