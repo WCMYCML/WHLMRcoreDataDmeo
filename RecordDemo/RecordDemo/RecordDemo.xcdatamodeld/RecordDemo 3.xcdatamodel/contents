@@ -3,7 +3,13 @@
     <entity name="Bank" representedClassName="Bank" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bankInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BankInfo" inverseName="bank" inverseEntity="BankInfo" syncable="YES"/>
         <relationship name="personnels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personnel" inverseName="bank" inverseEntity="Personnel" syncable="YES"/>
+    </entity>
+    <entity name="BankInfo" representedClassName="BankInfo" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bank" inverseName="bankInfo" inverseEntity="Bank" syncable="YES"/>
     </entity>
     <entity name="Car" representedClassName="Car" syncable="YES">
         <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
@@ -47,12 +53,13 @@
         <relationship name="position" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Position" inverseName="salary" inverseEntity="Position" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Bank" positionX="-36" positionY="264" width="128" height="88"/>
+        <element name="Bank" positionX="-0" positionY="261" width="128" height="105"/>
         <element name="Car" positionX="9" positionY="140" width="128" height="103"/>
         <element name="Company" positionX="-189" positionY="-34" width="128" height="88"/>
         <element name="Department" positionX="-18" positionY="-18" width="128" height="120"/>
         <element name="Personnel" positionX="-351" positionY="117" width="128" height="178"/>
         <element name="Position" positionX="-189" positionY="63" width="128" height="103"/>
         <element name="Salary" positionX="-207" positionY="351" width="128" height="103"/>
+        <element name="BankInfo" positionX="-153" positionY="135" width="128" height="90"/>
     </elements>
 </model>

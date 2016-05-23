@@ -57,6 +57,13 @@
                         <action selector="addBank:" destination="-1" eventType="touchUpInside" id="F4g-yE-swx"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abW-uP-fwd">
+                    <rect key="frame" x="45" y="396" width="70" height="30"/>
+                    <state key="normal" title="查找银行"/>
+                    <connections>
+                        <action selector="findBankInfoModel:" destination="-1" eventType="touchUpInside" id="8WD-77-lJm"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="261" y="357"/>

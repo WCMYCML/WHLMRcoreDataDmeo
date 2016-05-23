@@ -15,6 +15,7 @@
 #import "Personnel.h"
 #import "Position.h"
 #import "Salary.h"
+#import "BankInfo.h"
 
 @interface addViewController ()
 
@@ -252,15 +253,42 @@
 
 - (IBAction)addCar:(UIButton*)sender
 {
+    
     NSArray * depemtoyArray = [Department MR_findAll];
     for (Department* model in depemtoyArray ) {
         NSLog(@"得到的数据模型为：%@",model);
     }
-    
 }
+
 
 - (IBAction)addBank:(UIButton*)sender
 {
+    
+    NSArray * bankArray = [Bank MR_findAll];
+    NSInteger index = 0;
+    for (Bank *model in bankArray) {
+        BankInfo * bankInfoModel = [BankInfo MR_createEntity];
+        bankInfoModel.telephone = @"1234432";
+        bankInfoModel.identifier = [NSString stringWithFormat:@"编号%zd",index];
+        model.bankInfo = bankInfoModel;
+        index ++;
+    }
+    
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreWithCompletion:^(BOOL contextDidSave, NSError * _Nullable error) {
+        if (contextDidSave) {
+            NSLog(@"保存成功");
+        }else{
+            NSLog(@"保存失败原因是：%@",error);
+        }
+    }];
 }
+
+- (IBAction)findBankInfoModel:(UIButton *)sender {
+     NSArray * bankArray = [Bank MR_findAll];
+    for (Bank * model in bankArray) {
+        NSLog(@"得到的结果为：%@ --》%@ ---》银行信息Model为：%@",model.address,model.name,model.bankInfo);
+    }
+}
+
 
 @end
