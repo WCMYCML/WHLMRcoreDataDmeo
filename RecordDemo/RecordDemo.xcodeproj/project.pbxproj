@@ -85,6 +85,7 @@
 		2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2316D3961CF2A34100EA8A0D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		2316D3971CF2A34100EA8A0D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		2316D39A1CF2B61500EA8A0D /* RecordDemo 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RecordDemo 2.xcdatamodel"; sourceTree = "<group>"; };
 		233B00711CF09386002335C6 /* YYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCar.h; sourceTree = "<group>"; };
 		233B00721CF09386002335C6 /* YYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCar.m; sourceTree = "<group>"; };
 		233B00741CF09428002335C6 /* YYCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCompany.h; sourceTree = "<group>"; };
@@ -670,9 +671,10 @@
 		23E5EFF31CEC4AE000882513 /* RecordDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2316D39A1CF2B61500EA8A0D /* RecordDemo 2.xcdatamodel */,
 				23E5EFF41CEC4AE000882513 /* RecordDemo.xcdatamodel */,
 			);
-			currentVersion = 23E5EFF41CEC4AE000882513 /* RecordDemo.xcdatamodel */;
+			currentVersion = 2316D39A1CF2B61500EA8A0D /* RecordDemo 2.xcdatamodel */;
 			path = RecordDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -228,7 +228,6 @@
     }];
 }
 
-
 - (IBAction)addPosition:(UIButton*)sender
 {
     NSArray * positionArray = [Personnel MR_findAllSortedBy:@"age" ascending:YES];
@@ -237,12 +236,27 @@
     }
 }
 
+
 - (IBAction)addPerson:(UIButton*)sender
 {
+    NSArray * depemtoyArray = [Department MR_findAll];
+    for (Department* model in depemtoyArray ) {
+        [model setValue:@"编号10020号" forKey:@"identifier"];
+    }
+    
+    [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreWithCompletion:^(BOOL contextDidSave, NSError * _Nullable error) {
+        NSLog(@"保存成功！");
+    }];
 }
+
 
 - (IBAction)addCar:(UIButton*)sender
 {
+    NSArray * depemtoyArray = [Department MR_findAll];
+    for (Department* model in depemtoyArray ) {
+        NSLog(@"得到的数据模型为：%@",model);
+    }
+    
 }
 
 - (IBAction)addBank:(UIButton*)sender
