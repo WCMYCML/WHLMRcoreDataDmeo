@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04AE6AE7B950E1A88D5E3B83 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A8287F6214850A72684CEA /* libPods.a */; };
-		2311F96E1CEEDD750035044A /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9531CEEDD750035044A /* Department+CoreDataProperties.m */; };
-		2311F96F1CEEDD750035044A /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9551CEEDD750035044A /* Department.m */; };
-		2311F9701CEEDD750035044A /* Personnel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9571CEEDD750035044A /* Personnel+CoreDataProperties.m */; };
-		2311F9711CEEDD750035044A /* Personnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9591CEEDD750035044A /* Personnel.m */; };
 		2311F9721CEEDD750035044A /* Position+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F95B1CEEDD750035044A /* Position+CoreDataProperties.m */; };
 		2311F9731CEEDD750035044A /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F95D1CEEDD750035044A /* Position.m */; };
 		2311F9741CEEDD750035044A /* Car+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F95F1CEEDD750035044A /* Car+CoreDataProperties.m */; };
@@ -24,6 +20,10 @@
 		2311F97B1CEEDD750035044A /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F96D1CEEDD750035044A /* Company.m */; };
 		2311F9841CEF253E0035044A /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9821CEF253E0035044A /* addViewController.m */; };
 		2311F9851CEF253E0035044A /* addViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2311F9831CEF253E0035044A /* addViewController.xib */; };
+		2316D3921CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D38F1CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m */; };
+		2316D3931CF29DCF00EA8A0D /* Personnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3911CF29DCF00EA8A0D /* Personnel.m */; };
+		2316D3981CF2A34100EA8A0D /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */; };
+		2316D3991CF2A34100EA8A0D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3971CF2A34100EA8A0D /* Department.m */; };
 		233B00731CF09386002335C6 /* YYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00721CF09386002335C6 /* YYCar.m */; };
 		233B00761CF09428002335C6 /* YYCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00751CF09428002335C6 /* YYCompany.m */; };
 		233B00791CF09456002335C6 /* YYBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00781CF09456002335C6 /* YYBank.m */; };
@@ -32,8 +32,6 @@
 		233B00821CF094E4002335C6 /* YYPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00811CF094E4002335C6 /* YYPosition.m */; };
 		233B00851CF09503002335C6 /* YYSalary.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00841CF09503002335C6 /* YYSalary.m */; };
 		233B00881CF095B1002335C6 /* YYModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00871CF095B1002335C6 /* YYModelManager.m */; };
-		233B008C1CF0B165002335C6 /* YYModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B008A1CF0B165002335C6 /* YYModelViewController.m */; };
-		233B008D1CF0B165002335C6 /* YYModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233B008B1CF0B165002335C6 /* YYModelViewController.xib */; };
 		23E5EFE91CEC4AE000882513 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFE81CEC4AE000882513 /* main.m */; };
 		23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEB1CEC4AE000882513 /* AppDelegate.m */; };
 		23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E5EFEE1CEC4AE000882513 /* ViewController.m */; };
@@ -55,14 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2311F9521CEEDD750035044A /* Department+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Department+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2311F9531CEEDD750035044A /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2311F9541CEEDD750035044A /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
-		2311F9551CEEDD750035044A /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
-		2311F9561CEEDD750035044A /* Personnel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Personnel+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2311F9571CEEDD750035044A /* Personnel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Personnel+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2311F9581CEEDD750035044A /* Personnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personnel.h; sourceTree = "<group>"; };
-		2311F9591CEEDD750035044A /* Personnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personnel.m; sourceTree = "<group>"; };
 		2311F95A1CEEDD750035044A /* Position+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Position+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2311F95B1CEEDD750035044A /* Position+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Position+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2311F95C1CEEDD750035044A /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
@@ -87,6 +77,14 @@
 		2311F9821CEF253E0035044A /* addViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addViewController.m; sourceTree = "<group>"; };
 		2311F9831CEF253E0035044A /* addViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addViewController.xib; sourceTree = "<group>"; };
 		2311F9861CEF27770035044A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2316D38E1CF29DCF00EA8A0D /* Personnel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Personnel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2316D38F1CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Personnel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2316D3901CF29DCF00EA8A0D /* Personnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personnel.h; sourceTree = "<group>"; };
+		2316D3911CF29DCF00EA8A0D /* Personnel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personnel.m; sourceTree = "<group>"; };
+		2316D3941CF2A34100EA8A0D /* Department+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Department+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2316D3961CF2A34100EA8A0D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		2316D3971CF2A34100EA8A0D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
 		233B00711CF09386002335C6 /* YYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCar.h; sourceTree = "<group>"; };
 		233B00721CF09386002335C6 /* YYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCar.m; sourceTree = "<group>"; };
 		233B00741CF09428002335C6 /* YYCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCompany.h; sourceTree = "<group>"; };
@@ -103,9 +101,6 @@
 		233B00841CF09503002335C6 /* YYSalary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSalary.m; sourceTree = "<group>"; };
 		233B00861CF095B1002335C6 /* YYModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelManager.h; sourceTree = "<group>"; };
 		233B00871CF095B1002335C6 /* YYModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelManager.m; sourceTree = "<group>"; };
-		233B00891CF0B165002335C6 /* YYModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModelViewController.h; sourceTree = "<group>"; };
-		233B008A1CF0B165002335C6 /* YYModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYModelViewController.m; sourceTree = "<group>"; };
-		233B008B1CF0B165002335C6 /* YYModelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYModelViewController.xib; sourceTree = "<group>"; };
 		23E5EFE41CEC4ADF00882513 /* RecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5EFE81CEC4AE000882513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		23E5EFEA1CEC4AE000882513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,14 +142,6 @@
 		2311F9511CEEDD540035044A /* CoreDataModel */ = {
 			isa = PBXGroup;
 			children = (
-				2311F9521CEEDD750035044A /* Department+CoreDataProperties.h */,
-				2311F9531CEEDD750035044A /* Department+CoreDataProperties.m */,
-				2311F9541CEEDD750035044A /* Department.h */,
-				2311F9551CEEDD750035044A /* Department.m */,
-				2311F9561CEEDD750035044A /* Personnel+CoreDataProperties.h */,
-				2311F9571CEEDD750035044A /* Personnel+CoreDataProperties.m */,
-				2311F9581CEEDD750035044A /* Personnel.h */,
-				2311F9591CEEDD750035044A /* Personnel.m */,
 				2311F95A1CEEDD750035044A /* Position+CoreDataProperties.h */,
 				2311F95B1CEEDD750035044A /* Position+CoreDataProperties.m */,
 				2311F95C1CEEDD750035044A /* Position.h */,
@@ -175,6 +162,14 @@
 				2311F96B1CEEDD750035044A /* Company+CoreDataProperties.m */,
 				2311F96C1CEEDD750035044A /* Company.h */,
 				2311F96D1CEEDD750035044A /* Company.m */,
+				2316D38E1CF29DCF00EA8A0D /* Personnel+CoreDataProperties.h */,
+				2316D38F1CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m */,
+				2316D3901CF29DCF00EA8A0D /* Personnel.h */,
+				2316D3911CF29DCF00EA8A0D /* Personnel.m */,
+				2316D3941CF2A34100EA8A0D /* Department+CoreDataProperties.h */,
+				2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */,
+				2316D3961CF2A34100EA8A0D /* Department.h */,
+				2316D3971CF2A34100EA8A0D /* Department.m */,
 			);
 			path = CoreDataModel;
 			sourceTree = "<group>";
@@ -185,9 +180,6 @@
 				2311F9811CEF253E0035044A /* addViewController.h */,
 				2311F9821CEF253E0035044A /* addViewController.m */,
 				2311F9831CEF253E0035044A /* addViewController.xib */,
-				233B00891CF0B165002335C6 /* YYModelViewController.h */,
-				233B008A1CF0B165002335C6 /* YYModelViewController.m */,
-				233B008B1CF0B165002335C6 /* YYModelViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -376,7 +368,6 @@
 				23E5EFFA1CEC4AE000882513 /* LaunchScreen.storyboard in Resources */,
 				23E5EFF71CEC4AE000882513 /* Assets.xcassets in Resources */,
 				2311F9851CEF253E0035044A /* addViewController.xib in Resources */,
-				233B008D1CF0B165002335C6 /* YYModelViewController.xib in Resources */,
 				23E5EFF21CEC4AE000882513 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +436,6 @@
 			files = (
 				233B007F1CF094B7002335C6 /* YYPersonnel.m in Sources */,
 				23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */,
-				2311F9701CEEDD750035044A /* Personnel+CoreDataProperties.m in Sources */,
 				23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */,
 				23E5EFE91CEC4AE000882513 /* main.m in Sources */,
 				233B00881CF095B1002335C6 /* YYModelManager.m in Sources */,
@@ -453,24 +443,24 @@
 				2311F9781CEEDD750035044A /* Bank+CoreDataProperties.m in Sources */,
 				2311F9731CEEDD750035044A /* Position.m in Sources */,
 				233B00731CF09386002335C6 /* YYCar.m in Sources */,
-				2311F9711CEEDD750035044A /* Personnel.m in Sources */,
 				233B00761CF09428002335C6 /* YYCompany.m in Sources */,
 				2311F97B1CEEDD750035044A /* Company.m in Sources */,
 				233B00821CF094E4002335C6 /* YYPosition.m in Sources */,
 				2311F9751CEEDD750035044A /* Car.m in Sources */,
 				23E5EFF51CEC4AE000882513 /* RecordDemo.xcdatamodeld in Sources */,
-				2311F96E1CEEDD750035044A /* Department+CoreDataProperties.m in Sources */,
 				233B00791CF09456002335C6 /* YYBank.m in Sources */,
+				2316D3921CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m in Sources */,
 				2311F9841CEF253E0035044A /* addViewController.m in Sources */,
 				2311F97A1CEEDD750035044A /* Company+CoreDataProperties.m in Sources */,
 				233B007C1CF0948F002335C6 /* YYDepartment.m in Sources */,
 				2311F9771CEEDD750035044A /* Salary.m in Sources */,
 				2311F9741CEEDD750035044A /* Car+CoreDataProperties.m in Sources */,
+				2316D3981CF2A34100EA8A0D /* Department+CoreDataProperties.m in Sources */,
 				2311F9761CEEDD750035044A /* Salary+CoreDataProperties.m in Sources */,
-				233B008C1CF0B165002335C6 /* YYModelViewController.m in Sources */,
+				2316D3931CF29DCF00EA8A0D /* Personnel.m in Sources */,
 				2311F9791CEEDD750035044A /* Bank.m in Sources */,
 				2311F9721CEEDD750035044A /* Position+CoreDataProperties.m in Sources */,
-				2311F96F1CEEDD750035044A /* Department.m in Sources */,
+				2316D3991CF2A34100EA8A0D /* Department.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

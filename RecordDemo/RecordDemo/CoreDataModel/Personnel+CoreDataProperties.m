@@ -2,7 +2,7 @@
 //  Personnel+CoreDataProperties.m
 //  RecordDemo
 //
-//  Created by 王浩霖 on 16/5/20.
+//  Created by 王浩霖 on 16/5/23.
 //  Copyright © 2016年 wcycml.com.cn. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,14 +13,14 @@
 
 @implementation Personnel (CoreDataProperties)
 
-@dynamic name;
-@dynamic age;
 @dynamic address;
+@dynamic age;
+@dynamic name;
 @dynamic sex;
-@dynamic position;
-@dynamic salary;
+@dynamic bank;
 @dynamic car;
 @dynamic department;
-@dynamic bank;
+@dynamic position;
+@dynamic salary;
 
 @end
