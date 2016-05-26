@@ -14,8 +14,6 @@
 		2311F9751CEEDD750035044A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9611CEEDD750035044A /* Car.m */; };
 		2311F9761CEEDD750035044A /* Salary+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9631CEEDD750035044A /* Salary+CoreDataProperties.m */; };
 		2311F9771CEEDD750035044A /* Salary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9651CEEDD750035044A /* Salary.m */; };
-		2311F9781CEEDD750035044A /* Bank+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9671CEEDD750035044A /* Bank+CoreDataProperties.m */; };
-		2311F9791CEEDD750035044A /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9691CEEDD750035044A /* Bank.m */; };
 		2311F97A1CEEDD750035044A /* Company+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F96B1CEEDD750035044A /* Company+CoreDataProperties.m */; };
 		2311F97B1CEEDD750035044A /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F96D1CEEDD750035044A /* Company.m */; };
 		2311F9841CEF253E0035044A /* addViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2311F9821CEF253E0035044A /* addViewController.m */; };
@@ -24,6 +22,10 @@
 		2316D3931CF29DCF00EA8A0D /* Personnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3911CF29DCF00EA8A0D /* Personnel.m */; };
 		2316D3981CF2A34100EA8A0D /* Department+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */; };
 		2316D3991CF2A34100EA8A0D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3971CF2A34100EA8A0D /* Department.m */; };
+		2316D3A11CF2E23500EA8A0D /* BankInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D39E1CF2E23500EA8A0D /* BankInfo+CoreDataProperties.m */; };
+		2316D3A21CF2E23500EA8A0D /* BankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3A01CF2E23500EA8A0D /* BankInfo.m */; };
+		2316D3A71CF2E28900EA8A0D /* Bank+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3A41CF2E28900EA8A0D /* Bank+CoreDataProperties.m */; };
+		2316D3A81CF2E28900EA8A0D /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316D3A61CF2E28900EA8A0D /* Bank.m */; };
 		233B00731CF09386002335C6 /* YYCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00721CF09386002335C6 /* YYCar.m */; };
 		233B00761CF09428002335C6 /* YYCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00751CF09428002335C6 /* YYCompany.m */; };
 		233B00791CF09456002335C6 /* YYBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B00781CF09456002335C6 /* YYBank.m */; };
@@ -65,10 +67,6 @@
 		2311F9631CEEDD750035044A /* Salary+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Salary+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2311F9641CEEDD750035044A /* Salary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salary.h; sourceTree = "<group>"; };
 		2311F9651CEEDD750035044A /* Salary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salary.m; sourceTree = "<group>"; };
-		2311F9661CEEDD750035044A /* Bank+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bank+CoreDataProperties.h"; sourceTree = "<group>"; };
-		2311F9671CEEDD750035044A /* Bank+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bank+CoreDataProperties.m"; sourceTree = "<group>"; };
-		2311F9681CEEDD750035044A /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
-		2311F9691CEEDD750035044A /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
 		2311F96A1CEEDD750035044A /* Company+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Company+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2311F96B1CEEDD750035044A /* Company+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Company+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2311F96C1CEEDD750035044A /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
@@ -85,6 +83,16 @@
 		2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Department+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2316D3961CF2A34100EA8A0D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
 		2316D3971CF2A34100EA8A0D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		2316D39A1CF2B61500EA8A0D /* RecordDemo 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RecordDemo 2.xcdatamodel"; sourceTree = "<group>"; };
+		2316D39C1CF2E0C000EA8A0D /* RecordDemo 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RecordDemo 3.xcdatamodel"; sourceTree = "<group>"; };
+		2316D39D1CF2E23500EA8A0D /* BankInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BankInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2316D39E1CF2E23500EA8A0D /* BankInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BankInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2316D39F1CF2E23500EA8A0D /* BankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankInfo.h; sourceTree = "<group>"; };
+		2316D3A01CF2E23500EA8A0D /* BankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankInfo.m; sourceTree = "<group>"; };
+		2316D3A31CF2E28900EA8A0D /* Bank+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bank+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2316D3A41CF2E28900EA8A0D /* Bank+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bank+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2316D3A51CF2E28900EA8A0D /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		2316D3A61CF2E28900EA8A0D /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
 		233B00711CF09386002335C6 /* YYCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCar.h; sourceTree = "<group>"; };
 		233B00721CF09386002335C6 /* YYCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCar.m; sourceTree = "<group>"; };
 		233B00741CF09428002335C6 /* YYCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCompany.h; sourceTree = "<group>"; };
@@ -154,10 +162,6 @@
 				2311F9631CEEDD750035044A /* Salary+CoreDataProperties.m */,
 				2311F9641CEEDD750035044A /* Salary.h */,
 				2311F9651CEEDD750035044A /* Salary.m */,
-				2311F9661CEEDD750035044A /* Bank+CoreDataProperties.h */,
-				2311F9671CEEDD750035044A /* Bank+CoreDataProperties.m */,
-				2311F9681CEEDD750035044A /* Bank.h */,
-				2311F9691CEEDD750035044A /* Bank.m */,
 				2311F96A1CEEDD750035044A /* Company+CoreDataProperties.h */,
 				2311F96B1CEEDD750035044A /* Company+CoreDataProperties.m */,
 				2311F96C1CEEDD750035044A /* Company.h */,
@@ -170,6 +174,14 @@
 				2316D3951CF2A34100EA8A0D /* Department+CoreDataProperties.m */,
 				2316D3961CF2A34100EA8A0D /* Department.h */,
 				2316D3971CF2A34100EA8A0D /* Department.m */,
+				2316D39D1CF2E23500EA8A0D /* BankInfo+CoreDataProperties.h */,
+				2316D39E1CF2E23500EA8A0D /* BankInfo+CoreDataProperties.m */,
+				2316D39F1CF2E23500EA8A0D /* BankInfo.h */,
+				2316D3A01CF2E23500EA8A0D /* BankInfo.m */,
+				2316D3A31CF2E28900EA8A0D /* Bank+CoreDataProperties.h */,
+				2316D3A41CF2E28900EA8A0D /* Bank+CoreDataProperties.m */,
+				2316D3A51CF2E28900EA8A0D /* Bank.h */,
+				2316D3A61CF2E28900EA8A0D /* Bank.m */,
 			);
 			path = CoreDataModel;
 			sourceTree = "<group>";
@@ -437,10 +449,10 @@
 				233B007F1CF094B7002335C6 /* YYPersonnel.m in Sources */,
 				23E5EFEF1CEC4AE000882513 /* ViewController.m in Sources */,
 				23E5EFEC1CEC4AE000882513 /* AppDelegate.m in Sources */,
+				2316D3A11CF2E23500EA8A0D /* BankInfo+CoreDataProperties.m in Sources */,
 				23E5EFE91CEC4AE000882513 /* main.m in Sources */,
 				233B00881CF095B1002335C6 /* YYModelManager.m in Sources */,
 				233B00851CF09503002335C6 /* YYSalary.m in Sources */,
-				2311F9781CEEDD750035044A /* Bank+CoreDataProperties.m in Sources */,
 				2311F9731CEEDD750035044A /* Position.m in Sources */,
 				233B00731CF09386002335C6 /* YYCar.m in Sources */,
 				233B00761CF09428002335C6 /* YYCompany.m in Sources */,
@@ -449,16 +461,18 @@
 				2311F9751CEEDD750035044A /* Car.m in Sources */,
 				23E5EFF51CEC4AE000882513 /* RecordDemo.xcdatamodeld in Sources */,
 				233B00791CF09456002335C6 /* YYBank.m in Sources */,
+				2316D3A71CF2E28900EA8A0D /* Bank+CoreDataProperties.m in Sources */,
 				2316D3921CF29DCF00EA8A0D /* Personnel+CoreDataProperties.m in Sources */,
 				2311F9841CEF253E0035044A /* addViewController.m in Sources */,
 				2311F97A1CEEDD750035044A /* Company+CoreDataProperties.m in Sources */,
 				233B007C1CF0948F002335C6 /* YYDepartment.m in Sources */,
 				2311F9771CEEDD750035044A /* Salary.m in Sources */,
+				2316D3A21CF2E23500EA8A0D /* BankInfo.m in Sources */,
+				2316D3A81CF2E28900EA8A0D /* Bank.m in Sources */,
 				2311F9741CEEDD750035044A /* Car+CoreDataProperties.m in Sources */,
 				2316D3981CF2A34100EA8A0D /* Department+CoreDataProperties.m in Sources */,
 				2311F9761CEEDD750035044A /* Salary+CoreDataProperties.m in Sources */,
 				2316D3931CF29DCF00EA8A0D /* Personnel.m in Sources */,
-				2311F9791CEEDD750035044A /* Bank.m in Sources */,
 				2311F9721CEEDD750035044A /* Position+CoreDataProperties.m in Sources */,
 				2316D3991CF2A34100EA8A0D /* Department.m in Sources */,
 			);
@@ -670,9 +684,11 @@
 		23E5EFF31CEC4AE000882513 /* RecordDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				2316D39C1CF2E0C000EA8A0D /* RecordDemo 3.xcdatamodel */,
+				2316D39A1CF2B61500EA8A0D /* RecordDemo 2.xcdatamodel */,
 				23E5EFF41CEC4AE000882513 /* RecordDemo.xcdatamodel */,
 			);
-			currentVersion = 23E5EFF41CEC4AE000882513 /* RecordDemo.xcdatamodel */;
+			currentVersion = 2316D39C1CF2E0C000EA8A0D /* RecordDemo 3.xcdatamodel */;
 			path = RecordDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

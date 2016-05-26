@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Department (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *name;
+@property (nullable, nonatomic, retain) NSString *identifier;
 @property (nullable, nonatomic, retain) Company *company;
 @property (nullable, nonatomic, retain) NSSet<Personnel *> *personnels;
 @property (nullable, nonatomic, retain) NSSet<Position *> *positions;

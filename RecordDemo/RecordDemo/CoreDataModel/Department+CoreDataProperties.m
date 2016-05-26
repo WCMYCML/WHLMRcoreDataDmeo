@@ -14,6 +14,7 @@
 @implementation Department (CoreDataProperties)
 
 @dynamic name;
+@dynamic identifier;
 @dynamic company;
 @dynamic personnels;
 @dynamic positions;
