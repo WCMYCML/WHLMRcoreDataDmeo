@@ -13,4 +13,8 @@
 
 // Insert code here to add functionality to your managed object subclass
 
+- (NSString *)description{
+    return [NSString stringWithFormat:@"<%p>--->银行名称:%@----->银行地址%@",self, self.name,self.address];
+}
+
 @end

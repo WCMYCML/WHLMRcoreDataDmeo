@@ -2,7 +2,7 @@
 //  Department+CoreDataProperties.h
 //  RecordDemo
 //
-//  Created by 王浩霖 on 16/5/20.
+//  Created by 王浩霖 on 16/5/23.
 //  Copyright © 2016年 wcycml.com.cn. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -16,23 +16,23 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Department (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *name;
-@property (nullable, nonatomic, retain) NSManagedObject *company;
-@property (nullable, nonatomic, retain) NSSet<NSManagedObject *> *positions;
-@property (nullable, nonatomic, retain) NSSet<NSManagedObject *> *personnels;
+@property (nullable, nonatomic, retain) Company *company;
+@property (nullable, nonatomic, retain) NSSet<Personnel *> *personnels;
+@property (nullable, nonatomic, retain) NSSet<Position *> *positions;
 
 @end
 
 @interface Department (CoreDataGeneratedAccessors)
 
-- (void)addPositionsObject:(NSManagedObject *)value;
-- (void)removePositionsObject:(NSManagedObject *)value;
-- (void)addPositions:(NSSet<NSManagedObject *> *)values;
-- (void)removePositions:(NSSet<NSManagedObject *> *)values;
+- (void)addPersonnelsObject:(Personnel *)value;
+- (void)removePersonnelsObject:(Personnel *)value;
+- (void)addPersonnels:(NSSet<Personnel *> *)values;
+- (void)removePersonnels:(NSSet<Personnel *> *)values;
 
-- (void)addPersonnelsObject:(NSManagedObject *)value;
-- (void)removePersonnelsObject:(NSManagedObject *)value;
-- (void)addPersonnels:(NSSet<NSManagedObject *> *)values;
-- (void)removePersonnels:(NSSet<NSManagedObject *> *)values;
+- (void)addPositionsObject:(Position *)value;
+- (void)removePositionsObject:(Position *)value;
+- (void)addPositions:(NSSet<Position *> *)values;
+- (void)removePositions:(NSSet<Position *> *)values;
 
 @end
 
