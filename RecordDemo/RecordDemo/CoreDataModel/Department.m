@@ -13,6 +13,8 @@
 
 @implementation Department
 
-// Insert code here to add functionality to your managed object subclass
+- (NSString *)description{
+    return [NSString stringWithFormat:@"<%p> ---》名字为：%@ 标示为：%@",self,self.name,self.identifier];
+}
 
 @end

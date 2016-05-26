@@ -1,5 +1,5 @@
 //
-//  Bank+CoreDataProperties.m
+//  BankInfo+CoreDataProperties.m
 //  RecordDemo
 //
 //  Created by 王浩霖 on 16/5/23.
@@ -9,13 +9,12 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "Bank+CoreDataProperties.h"
+#import "BankInfo+CoreDataProperties.h"
 
-@implementation Bank (CoreDataProperties)
+@implementation BankInfo (CoreDataProperties)
 
-@dynamic address;
-@dynamic name;
-@dynamic personnels;
-@dynamic bankInfo;
+@dynamic telephone;
+@dynamic identifier;
+@dynamic bank;
 
 @end

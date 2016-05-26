@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Bank" representedClassName="Bank" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bankInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BankInfo" inverseName="bank" inverseEntity="BankInfo" syncable="YES"/>
+        <relationship name="personnels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personnel" inverseName="bank" inverseEntity="Personnel" syncable="YES"/>
+    </entity>
+    <entity name="BankInfo" representedClassName="BankInfo" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bank" inverseName="bankInfo" inverseEntity="Bank" syncable="YES"/>
+    </entity>
+    <entity name="Car" representedClassName="Car" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="personnel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Personnel" inverseName="car" inverseEntity="Personnel" syncable="YES"/>
+    </entity>
+    <entity name="Company" representedClassName="Company" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="department" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Department" inverseName="company" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="company" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Company" inverseName="department" inverseEntity="Company" syncable="YES"/>
+        <relationship name="personnels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personnel" inverseName="department" inverseEntity="Personnel" syncable="YES"/>
+        <relationship name="positions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Position" inverseName="department" inverseEntity="Position" syncable="YES"/>
+    </entity>
+    <entity name="Personnel" representedClassName="Personnel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="bank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bank" inverseName="personnels" inverseEntity="Bank" syncable="YES"/>
+        <relationship name="car" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Car" inverseName="personnel" inverseEntity="Car" syncable="YES"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="personnels" inverseEntity="Department" syncable="YES"/>
+        <relationship name="position" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Position" inverseName="personnels" inverseEntity="Position" syncable="YES"/>
+        <relationship name="salary" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Salary" inverseName="personnels" inverseEntity="Salary" syncable="YES"/>
+    </entity>
+    <entity name="Position" representedClassName="Position" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="positions" inverseEntity="Department" syncable="YES"/>
+        <relationship name="personnels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personnel" inverseName="position" inverseEntity="Personnel" syncable="YES"/>
+        <relationship name="salary" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Salary" inverseName="position" inverseEntity="Salary" syncable="YES"/>
+    </entity>
+    <entity name="Salary" representedClassName="Salary" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pay" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="personnels" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Personnel" inverseName="salary" inverseEntity="Personnel" syncable="YES"/>
+        <relationship name="position" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Position" inverseName="salary" inverseEntity="Position" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bank" positionX="-0" positionY="261" width="128" height="105"/>
+        <element name="Car" positionX="9" positionY="140" width="128" height="103"/>
+        <element name="Company" positionX="-189" positionY="-34" width="128" height="88"/>
+        <element name="Department" positionX="-18" positionY="-18" width="128" height="120"/>
+        <element name="Personnel" positionX="-351" positionY="117" width="128" height="178"/>
+        <element name="Position" positionX="-189" positionY="63" width="128" height="103"/>
+        <element name="Salary" positionX="-207" positionY="351" width="128" height="103"/>
+        <element name="BankInfo" positionX="-153" positionY="135" width="128" height="90"/>
+    </elements>
+</model>
